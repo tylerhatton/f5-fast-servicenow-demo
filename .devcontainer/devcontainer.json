@@ -1,0 +1,18 @@
+// For format details, see https://aka.ms/vscode-remote/devcontainer.json or this file's README at:
+// https://github.com/microsoft/vscode-dev-containers/tree/v0.106.0/containers/docker-in-docker
+{
+  "name": "Serverless Framework",
+  "dockerFile": "Dockerfile",
+  "mounts": [
+    "source=${localEnv:HOME}${localEnv:USERPROFILE}/.aws/credentials,target=/home/vscode/.aws/credentials,type=bind"
+  ],
+  // Set *default* container specific settings.json values on container create.
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/bash"
+  },
+  // Add the IDs of extensions you want installed when the container is created.
+  "extensions": [
+    "hashicorp.terraform"
+  ],
+  "remoteUser": "vscode"
+}
