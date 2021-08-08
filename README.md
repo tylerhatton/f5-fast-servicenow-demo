@@ -2,6 +2,8 @@
 
 A demonstration of setting a ServiceNow service catalog form to point to F5 FAST.
 
+![flow diagram](images/1.png)
+
 ## Instructions
 
 <!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
