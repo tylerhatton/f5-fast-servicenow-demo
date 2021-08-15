@@ -1,6 +1,6 @@
 # Instructions
 
-This guide will walk you through setting up a ServiceNow Service Catalog and F5 BIG-IP to automate F5 VIP configurations through a service catalog form and F5 FAST.
+This guide will walk you through setting up a ServiceNow Service Catalog and F5 BIG-IP to automate F5 VIP configurations through a service catalog form and [F5 FAST](https://clouddocs.f5.com/products/extensions/f5-appsvcs-templates/latest/).
 
 A video demonstrating these instructions can be found [here](https://www.youtube.com/watch?v=xYAOlFrnqCE)
 
@@ -15,6 +15,14 @@ In order to get started, the following prerequisites are required:
 ## Steps
 
 #### Table of Contents
+
+1. [Spinning up your ServiceNow Developer Tenant](#spinning-up-your-servicenow-developer-tenant)
+2. [Building the ServiceNow Configuration and F5 BIG-IP with Terraform](#building-the-servicenow-configuration-and-f5-big-ip-with-terraform)
+3. [Building the ServiceNow Flow](#building-the-servicenow-flow)
+4. [Modifying Required System Properties](#modifying-required-system-properties)
+5. [Testing the Service Catalog](#testing-the-service-catalog)
+6. [Verifying the F5 BIG-IP Configuration](#verifying-the-f5-big-ip-configuration)
+7. [Cleanup](#cleanup)
 
 #### Spinning up your ServiceNow Developer Tenant
 
